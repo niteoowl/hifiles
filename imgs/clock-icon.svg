@@ -1,0 +1,25 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="clockBlue" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#82C4FF"/>
+      <stop offset="100%" stop-color="#2678E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Light gray square background -->
+  <rect width="128" height="128" fill="#F5F5F5"/>
+
+  <!-- Clock face -->
+  <circle cx="64" cy="64" r="46" fill="url(#clockBlue)"/>
+
+  <!-- Clock hands -->
+  <path
+    d="M64 34 V64 L84 76"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
