@@ -11,14 +11,13 @@
     </linearGradient>
   </defs>
 
-  <!-- Light gray square background -->
   <rect width="128" height="128" fill="#F5F5F5"/>
 
-  <!-- Left page -->
-  <path d="M16 25 Q39 20 62 34 L62 103 Q39 89 16 96 Q12 97 12 91 L12 33 Q12 27 16 25Z"
-        fill="url(#wikiCleanL)"/>
+  <g transform="translate(16 16) scale(0.75)">
+    <path d="M16 25 Q39 20 62 34 L62 103 Q39 89 16 96 Q12 97 12 91 L12 33 Q12 27 16 25Z"
+          fill="url(#wikiCleanL)"/>
 
-  <!-- Right page -->
-  <path d="M66 34 Q89 20 112 25 Q116 27 116 33 L116 91 Q116 97 112 96 Q89 89 66 103Z"
-        fill="url(#wikiCleanR)"/>
+    <path d="M66 34 Q89 20 112 25 Q116 27 116 33 L116 91 Q116 97 112 96 Q89 89 66 103Z"
+          fill="url(#wikiCleanR)"/>
+  </g>
 </svg>
