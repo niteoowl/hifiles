@@ -11,32 +11,29 @@
     </linearGradient>
   </defs>
 
-  <!-- Light gray square background -->
   <rect width="128" height="128" fill="#F5F5F5"/>
 
-  <!-- Source language card -->
-  <rect x="13" y="18" width="57" height="65" rx="12"
-        fill="url(#cardA)"/>
+  <g transform="translate(16 16) scale(0.75)">
+    <rect x="13" y="18" width="57" height="65" rx="12"
+          fill="url(#cardA)"/>
 
-  <!-- Target language card -->
-  <rect x="58" y="45" width="57" height="65" rx="12"
-        fill="url(#cardB)"/>
+    <rect x="58" y="45" width="57" height="65" rx="12"
+          fill="url(#cardB)"/>
 
-  <!-- Letter A -->
-  <path d="M30 58 L41 31 L52 58 M34 49 H48"
-        fill="none"
-        stroke="#FFFFFF"
-        stroke-width="4.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"/>
+    <path d="M30 58 L41 31 L52 58 M34 49 H48"
+          fill="none"
+          stroke="#FFFFFF"
+          stroke-width="4.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
 
-  <!-- Translation arrows -->
-  <g fill="none"
-     stroke="#DCEEFF"
-     stroke-width="4"
-     stroke-linecap="round"
-     stroke-linejoin="round">
-    <path d="M73 67 H99 L91 59 M99 67 L91 75"/>
-    <path d="M99 88 H73 L81 80 M73 88 L81 96"/>
+    <g fill="none"
+       stroke="#DCEEFF"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M73 67 H99 L91 59 M99 67 L91 75"/>
+      <path d="M99 88 H73 L81 80 M73 88 L81 96"/>
+    </g>
   </g>
 </svg>
