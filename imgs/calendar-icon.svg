@@ -7,35 +7,33 @@
     </linearGradient>
   </defs>
 
-  <!-- Light gray square background -->
   <rect width="128" height="128" fill="#F5F5F5"/>
 
-  <!-- Calendar body -->
-  <rect x="19" y="25" width="90" height="84" rx="15"
-        fill="url(#calendarBlue)"/>
+  <g transform="translate(16 16) scale(0.75)">
+    <rect x="19" y="25" width="90" height="84" rx="15"
+          fill="url(#calendarBlue)"/>
 
-  <path d="M19 40 Q19 25 34 25 H94 Q109 25 109 40 V47 H19 Z"
-        fill="#2678E8" opacity="0.45"/>
+    <path d="M19 40 Q19 25 34 25 H94 Q109 25 109 40 V47 H19 Z"
+          fill="#2678E8" opacity="0.45"/>
 
-  <!-- Calendar rings -->
-  <path d="M41 18 V35 M87 18 V35"
-        fill="none" stroke="#3985F5" stroke-width="8"
-        stroke-linecap="round"/>
+    <path d="M41 18 V35 M87 18 V35"
+          fill="none" stroke="#3985F5" stroke-width="8"
+          stroke-linecap="round"/>
 
-  <!-- Calendar dates -->
-  <g fill="#FFFFFF" opacity="0.95">
-    <rect x="32" y="57" width="12" height="10" rx="3"/>
-    <rect x="49" y="57" width="12" height="10" rx="3"/>
-    <rect x="66" y="57" width="12" height="10" rx="3"/>
-    <rect x="83" y="57" width="12" height="10" rx="3"/>
+    <g fill="#FFFFFF" opacity="0.95">
+      <rect x="32" y="57" width="12" height="10" rx="3"/>
+      <rect x="49" y="57" width="12" height="10" rx="3"/>
+      <rect x="66" y="57" width="12" height="10" rx="3"/>
+      <rect x="83" y="57" width="12" height="10" rx="3"/>
 
-    <rect x="32" y="74" width="12" height="10" rx="3"/>
-    <rect x="49" y="74" width="12" height="10" rx="3"/>
-    <rect x="66" y="74" width="12" height="10" rx="3"/>
-    <rect x="83" y="74" width="12" height="10" rx="3"/>
+      <rect x="32" y="74" width="12" height="10" rx="3"/>
+      <rect x="49" y="74" width="12" height="10" rx="3"/>
+      <rect x="66" y="74" width="12" height="10" rx="3"/>
+      <rect x="83" y="74" width="12" height="10" rx="3"/>
 
-    <rect x="32" y="91" width="12" height="7" rx="3"/>
-    <rect x="49" y="91" width="12" height="7" rx="3"/>
-    <rect x="66" y="91" width="12" height="7" rx="3"/>
+      <rect x="32" y="91" width="12" height="7" rx="3"/>
+      <rect x="49" y="91" width="12" height="7" rx="3"/>
+      <rect x="66" y="91" width="12" height="7" rx="3"/>
+    </g>
   </g>
 </svg>
