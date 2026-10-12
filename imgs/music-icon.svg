@@ -1,0 +1,29 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="musicOneShape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#82C4FF"/>
+      <stop offset="100%" stop-color="#2678E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Light gray square background -->
+  <rect width="128" height="128" fill="#F5F5F5"/>
+
+  <!-- Music note -->
+  <path
+    d="M44 76 V29
+       Q44 26 47 25
+       L93 14 Q98 13 98 18
+       V68
+       C98 80 88 88 77 89
+       C66 90 61 84 64 77
+       C67 70 78 65 88 66
+       V28 L54 36 V81
+       C54 93 44 101 32 102
+       C21 103 15 97 18 89
+       C21 81 33 76 44 76 Z"
+    fill="url(#musicOneShape)"
+    fill-rule="nonzero"
+  />
+</svg>
