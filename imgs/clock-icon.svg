@@ -7,19 +7,18 @@
     </linearGradient>
   </defs>
 
-  <!-- Light gray square background -->
   <rect width="128" height="128" fill="#F5F5F5"/>
 
-  <!-- Clock face -->
-  <circle cx="64" cy="64" r="46" fill="url(#clockBlue)"/>
+  <g transform="translate(16 16) scale(0.75)">
+    <circle cx="64" cy="64" r="46" fill="url(#clockBlue)"/>
 
-  <!-- Clock hands -->
-  <path
-    d="M64 34 V64 L84 76"
-    fill="none"
-    stroke="#FFFFFF"
-    stroke-width="7"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+    <path
+      d="M64 34 V64 L84 76"
+      fill="none"
+      stroke="#FFFFFF"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
 </svg>
